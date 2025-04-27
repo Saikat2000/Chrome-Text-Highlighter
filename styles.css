@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+#container {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#highlights-list {
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.highlight-item {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.highlight-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.highlight-url {
+  font-size: 12px;
+  color: #555;
+}
+
+.delete-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ff5c5c;
+  border: none;
+  color: white;
+  padding: 4px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #ff1c1c;
+}
